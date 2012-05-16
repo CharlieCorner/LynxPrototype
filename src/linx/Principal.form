@@ -3,6 +3,7 @@
 <Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Escritorio virtual - Lynx"/>
     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
       <Dimension value="[830, 704]"/>
     </Property>
@@ -82,6 +83,9 @@
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="cc" red="cc" type="rgb"/>
                 </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="0"/>
+                </Property>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
@@ -105,18 +109,25 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
+                          <Group type="102" attributes="0">
                               <EmptySpace pref="124" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLayeredPane44" alignment="0" min="-2" pref="370" max="-2" attributes="0"/>
                                   <Component id="jLayeredPane41" alignment="0" min="-2" pref="370" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="jLabel28" min="-2" pref="448" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jLabel143" min="-2" max="-2" attributes="0"/>
                                   </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="jLayeredPane44" min="-2" pref="370" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                               <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -137,7 +148,9 @@
                                       <Component id="jLabel143" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace pref="188" max="32767" attributes="0"/>
+                              <EmptySpace pref="86" max="32767" attributes="0"/>
+                              <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -268,6 +281,13 @@
                       <Properties>
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/resources/iPhoneIcon_Big.png"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel26">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/resources/plecalynx.jpg"/>
                         </Property>
                       </Properties>
                     </Component>
@@ -706,6 +726,18 @@
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
                               <JLayeredPaneConstraints x="670" y="60" width="80" height="240" layer="0" position="-1"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel59">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/resources/plecalynx.jpg"/>
+                            </Property>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                              <JLayeredPaneConstraints x="350" y="240" width="-1" height="-1" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1445,7 +1477,7 @@
                                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                   <Font name="Arial" size="12" style="0"/>
                                 </Property>
-                                <Property name="text" type="java.lang.String" value="Telefonos:"/>
+                                <Property name="text" type="java.lang.String" value="Tel&#xe9;fonos:"/>
                                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                                   <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                                     <EtchetBorder/>
@@ -1644,6 +1676,18 @@
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
                               <JLayeredPaneConstraints x="670" y="60" width="80" height="240" layer="0" position="-1"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel152">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/resources/plecalynx.jpg"/>
+                            </Property>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                              <JLayeredPaneConstraints x="350" y="240" width="-1" height="-1" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1969,7 +2013,7 @@
                                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                   <Font name="Arial" size="12" style="0"/>
                                 </Property>
-                                <Property name="text" type="java.lang.String" value="Telefonos:"/>
+                                <Property name="text" type="java.lang.String" value="Tel&#xe9;fonos:"/>
                                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                                   <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                                     <EtchetBorder/>
@@ -2329,6 +2373,18 @@
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
                               <JLayeredPaneConstraints x="670" y="60" width="80" height="240" layer="0" position="-1"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel153">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/resources/plecalynx.jpg"/>
+                            </Property>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                              <JLayeredPaneConstraints x="350" y="240" width="-1" height="-1" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -2921,6 +2977,18 @@
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
                               <JLayeredPaneConstraints x="670" y="60" width="80" height="240" layer="0" position="-1"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel154">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/resources/plecalynx.jpg"/>
+                            </Property>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                              <JLayeredPaneConstraints x="350" y="230" width="-1" height="-1" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -3646,6 +3714,18 @@
                             </Constraint>
                           </Constraints>
                         </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel155">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/resources/plecalynx.jpg"/>
+                            </Property>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                              <JLayeredPaneConstraints x="350" y="230" width="-1" height="-1" layer="0" position="-1"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
                       </SubComponents>
                     </Container>
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane58">
@@ -4315,6 +4395,18 @@
                             </Constraint>
                           </Constraints>
                         </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel156">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/resources/plecalynx.jpg"/>
+                            </Property>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                              <JLayeredPaneConstraints x="350" y="240" width="-1" height="-1" layer="0" position="-1"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
                       </SubComponents>
                     </Container>
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane48">
@@ -4597,6 +4689,9 @@
                                   </StringArray>
                                 </Property>
                               </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox2ActionPerformed"/>
+                              </Events>
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
                                   <JLayeredPaneConstraints x="150" y="80" width="200" height="-1" layer="0" position="-1"/>
@@ -4889,7 +4984,19 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="670" y="60" width="80" height="240" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="670" y="50" width="80" height="240" layer="0" position="-1"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel157">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/resources/plecalynx.jpg"/>
+                            </Property>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                              <JLayeredPaneConstraints x="350" y="240" width="-1" height="-1" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -5583,6 +5690,18 @@
                             </Constraint>
                           </Constraints>
                         </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel58">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/resources/plecalynx.jpg"/>
+                            </Property>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                              <JLayeredPaneConstraints x="350" y="250" width="-1" height="-1" layer="0" position="-1"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
                       </SubComponents>
                     </Container>
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane73">
@@ -6094,6 +6213,12 @@
               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
               <SubComponents>
                 <Container class="javax.swing.JLayeredPane" name="jLayeredPane8">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="opaque" type="boolean" value="true"/>
+                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
                       <JTabbedPaneConstraints tabName="Reinscribir Alumno">
@@ -6108,13 +6233,17 @@
                       <Properties>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                            <TitledBorder title="Parametros de Busqueda"/>
+                            <TitledBorder title="Par&#xe1;metros de Busqueda"/>
                           </Border>
                         </Property>
                       </Properties>
+                      <AccessibilityProperties>
+                        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Par&#xe1;metros de Busqueda"/>
+                        <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value=""/>
+                      </AccessibilityProperties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                          <JLayeredPaneConstraints x="20" y="20" width="370" height="100" layer="0" position="-1"/>
+                          <JLayeredPaneConstraints x="20" y="20" width="300" height="90" layer="0" position="-1"/>
                         </Constraint>
                       </Constraints>
 
@@ -6132,15 +6261,12 @@
                           </Events>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="183" y="50" width="100" height="-1" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="190" y="50" width="100" height="-1" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel24">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -6190,9 +6316,6 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel42">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -6212,9 +6335,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel41">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -6234,6 +6354,9 @@
                         </Component>
                         <Component class="javax.swing.JTextField" name="apematalu2">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -6247,9 +6370,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel43">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -6269,9 +6389,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel44">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -6291,6 +6408,9 @@
                         </Component>
                         <Component class="javax.swing.JTextField" name="apepatalu2">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -6304,6 +6424,9 @@
                         </Component>
                         <Component class="javax.swing.JTextField" name="nomalu2">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -6317,6 +6440,9 @@
                         </Component>
                         <Component class="javax.swing.JTextField" name="ctaalu2">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -6365,9 +6491,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel27">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -6411,7 +6534,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Tahoma" size="12" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Ingenieria en Sistemas Computacionales"/>
+                            <Property name="text" type="java.lang.String" value="Ingenier&#xed;a en Sistemas Computacionales"/>
                             <Property name="opaque" type="boolean" value="true"/>
                           </Properties>
                           <Constraints>
@@ -6495,7 +6618,7 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                          <JLayeredPaneConstraints x="410" y="140" width="310" height="130" layer="0" position="-1"/>
+                          <JLayeredPaneConstraints x="410" y="80" width="310" height="90" layer="0" position="-1"/>
                         </Constraint>
                       </Constraints>
 
@@ -6514,29 +6637,7 @@
                           </Events>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="170" y="90" width="120" height="-1" layer="0" position="-1"/>
-                            </Constraint>
-                          </Constraints>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel26">
-                          <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Arial" size="12" style="0"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="Selecione una Materia:"/>
-                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
-                                <EtchetBorder/>
-                              </Border>
-                            </Property>
-                            <Property name="opaque" type="boolean" value="true"/>
-                          </Properties>
-                          <Constraints>
-                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="10" y="20" width="280" height="-1" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="170" y="60" width="120" height="-1" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -6560,7 +6661,7 @@
                           </Events>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="10" y="50" width="280" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="10" y="30" width="280" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -6570,13 +6671,16 @@
                       <Properties>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                            <TitledBorder title="Periodo"/>
+                            <TitledBorder title="Per&#xed;odo"/>
                           </Border>
                         </Property>
                       </Properties>
+                      <AccessibilityProperties>
+                        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Per&#xed;odo"/>
+                      </AccessibilityProperties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                          <JLayeredPaneConstraints x="410" y="20" width="310" height="120" layer="0" position="-1"/>
+                          <JLayeredPaneConstraints x="410" y="20" width="310" height="50" layer="0" position="-1"/>
                         </Constraint>
                       </Constraints>
 
@@ -6594,51 +6698,7 @@
                           </Events>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="160" y="50" width="140" height="-1" layer="0" position="-1"/>
-                            </Constraint>
-                          </Constraints>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel59">
-                          <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Arial" size="12" style="0"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="Per&#xed;odo Seleccionado:"/>
-                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
-                                <EtchetBorder/>
-                              </Border>
-                            </Property>
-                            <Property name="opaque" type="boolean" value="true"/>
-                          </Properties>
-                          <Constraints>
-                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="10" y="80" width="140" height="-1" layer="0" position="-1"/>
-                            </Constraint>
-                          </Constraints>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel58">
-                          <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Arial" size="12" style="0"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="Selecione el Per&#xed;odo:"/>
-                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
-                                <EtchetBorder/>
-                              </Border>
-                            </Property>
-                            <Property name="opaque" type="boolean" value="true"/>
-                          </Properties>
-                          <Constraints>
-                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="10" y="20" width="290" height="-1" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="160" y="20" width="140" height="-1" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -6650,7 +6710,7 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="10" y="50" width="140" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="10" y="20" width="140" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -6672,6 +6732,12 @@
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JLayeredPane" name="jLayeredPane28">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="opaque" type="boolean" value="true"/>
+                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
                       <JTabbedPaneConstraints tabName="Calificar Alumno">
@@ -6686,7 +6752,7 @@
                       <Properties>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                            <TitledBorder title="Parametros de Busqueda"/>
+                            <TitledBorder title="Par&#xe1;metros de Busqueda"/>
                           </Border>
                         </Property>
                       </Properties>
@@ -6716,9 +6782,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel47">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -6738,9 +6801,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel49">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -6766,7 +6826,7 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="140" y="20" width="150" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="140" y="20" width="100" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -6778,7 +6838,7 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="140" y="60" width="150" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="140" y="60" width="50" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -6802,6 +6862,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="txtmat">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -6820,9 +6883,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel48">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -6846,7 +6906,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Ingenieria en Sistemas Computacionales"/>
+                            <Property name="text" type="java.lang.String" value="Ingenier&#xed;a en Sistemas Computacionales"/>
                             <Property name="opaque" type="boolean" value="true"/>
                           </Properties>
                           <Constraints>
@@ -6857,6 +6917,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat1">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -6875,6 +6938,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat2">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -6893,6 +6959,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat3">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -6911,6 +6980,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat4">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -6929,6 +7001,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat5">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -6947,6 +7022,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat6">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -6965,6 +7043,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat7">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -6983,6 +7064,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat8">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7001,6 +7085,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat9">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7019,6 +7106,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat10">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7037,6 +7127,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat11">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7055,6 +7148,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat12">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7073,6 +7169,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat13">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7091,6 +7190,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat14">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7109,6 +7211,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat15">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7127,6 +7232,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat16">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7145,6 +7253,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat17">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7163,6 +7274,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat18">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7181,6 +7295,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="txtmat19">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
                             </Property>
@@ -7409,9 +7526,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel55">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7443,9 +7557,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel54">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7465,9 +7576,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel61">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7488,9 +7596,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel60">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7529,9 +7634,6 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel52">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7551,9 +7653,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel53">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7573,9 +7672,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel56">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7595,6 +7691,9 @@
                         </Component>
                         <Component class="javax.swing.JTextField" name="apematalu3">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -7602,12 +7701,15 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="150" y="110" width="200" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="150" y="110" width="110" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
                         <Component class="javax.swing.JTextField" name="apepatalu3">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -7615,15 +7717,12 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="150" y="80" width="200" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="150" y="80" width="110" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel57">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7643,6 +7742,9 @@
                         </Component>
                         <Component class="javax.swing.JTextField" name="nomalu3">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -7650,12 +7752,15 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="150" y="50" width="200" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="150" y="50" width="110" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
                         <Component class="javax.swing.JTextField" name="ctaalu3">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -7663,7 +7768,7 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="150" y="20" width="200" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="150" y="20" width="100" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -7722,6 +7827,12 @@
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JLayeredPane" name="jLayeredPane38">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="opaque" type="boolean" value="true"/>
+                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
                       <JTabbedPaneConstraints tabName="Consulta de Reinscripciones">
@@ -7736,7 +7847,7 @@
                       <Properties>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                            <TitledBorder title="Parametros de Busqueda"/>
+                            <TitledBorder title="Par&#xe1;metros de Busqueda"/>
                           </Border>
                         </Property>
                       </Properties>
@@ -7766,13 +7877,10 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel50">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Periodo"/>
+                            <Property name="text" type="java.lang.String" value="Per&#xed;odo"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                               <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                                 <EtchetBorder/>
@@ -7788,9 +7896,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel51">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7816,7 +7921,7 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="140" y="20" width="150" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="140" y="20" width="130" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -7828,7 +7933,7 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="140" y="60" width="150" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="140" y="60" width="60" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -7852,9 +7957,6 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel62">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7874,9 +7976,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel63">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7896,6 +7995,9 @@
                         </Component>
                         <Component class="javax.swing.JTextField" name="apematalu4">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -7903,15 +8005,12 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="150" y="110" width="200" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="150" y="110" width="110" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel64">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7931,9 +8030,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel65">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -7953,6 +8049,9 @@
                         </Component>
                         <Component class="javax.swing.JTextField" name="apepatalu4">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -7960,12 +8059,15 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="150" y="80" width="200" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="150" y="80" width="110" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
                         <Component class="javax.swing.JTextField" name="nomalu4">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -7973,12 +8075,15 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="150" y="50" width="200" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="150" y="50" width="140" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
                         <Component class="javax.swing.JTextField" name="ctaalu4">
                           <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
                             <Property name="editable" type="boolean" value="false"/>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Comic Sans MS" size="12" style="0"/>
@@ -7986,7 +8091,7 @@
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
-                              <JLayeredPaneConstraints x="150" y="20" width="200" height="20" layer="0" position="-1"/>
+                              <JLayeredPaneConstraints x="150" y="20" width="120" height="20" layer="0" position="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -8101,6 +8206,12 @@
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JLayeredPane" name="jLayeredPane9">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                    </Property>
+                    <Property name="opaque" type="boolean" value="true"/>
+                  </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
                       <JTabbedPaneConstraints tabName="Ret&#xed;cula">
@@ -8115,7 +8226,7 @@
                       <Properties>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                            <TitledBorder title="Parametros de Busqueda"/>
+                            <TitledBorder title="Par&#xe1;metros de Busqueda"/>
                           </Border>
                         </Property>
                       </Properties>
@@ -8146,9 +8257,6 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel25">
                           <Properties>
-                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="ff" green="cc" red="cc" type="rgb"/>
-                            </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Arial" size="12" style="0"/>
                             </Property>
@@ -8195,6 +8303,9 @@
               <SubComponents>
                 <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
                   <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/resources/eliminar.png"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Salir"/>
                   </Properties>
                 </MenuItem>
