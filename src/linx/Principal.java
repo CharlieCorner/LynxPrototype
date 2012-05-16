@@ -3950,7 +3950,6 @@ public class Principal extends javax.swing.JFrame {
         }
         int j4 = 0;
         listadoMat1.setModel(new javax.swing.AbstractListModel() {
-
             String[] strings = {""};
 
             public int getSize() {
@@ -4090,7 +4089,6 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_chkmatActionPerformed
 
     private void chkmatItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_chkmatItemStateChanged
-
         // TODO add your handling code here:
 		}//GEN-LAST:event_chkmatItemStateChanged
 
@@ -4361,7 +4359,7 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2MouseReleased
 
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
-        // TODO add your handling code here:
+        MensajesDePopup.mostrarMensajeError("No se encontró el usuario", null, this);
 		}//GEN-LAST:event_jButton31ActionPerformed
 
         private void jButton31MouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton31MouseReleased
@@ -4415,7 +4413,6 @@ public class Principal extends javax.swing.JFrame {
          * Create and display the form
          */
         java.awt.EventQueue.invokeLater(new Runnable() {
-
             public void run() {
                 new Principal().setVisible(true);
             }

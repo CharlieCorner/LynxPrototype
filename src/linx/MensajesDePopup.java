@@ -1,14 +1,15 @@
 package linx;
 
+import java.net.URL;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class MensajesDePopup {
 
-    public static final ImageIcon iconoError = new ImageIcon("resources/error2.png");
-    public static final ImageIcon iconoInformativo = new ImageIcon("resources/info2.png");
-    public static final ImageIcon iconoAdvertencia = new ImageIcon("resources/alerta2.png");
+    public static ImageIcon iconoError = new ImageIcon(MensajesDePopup.class.getResource("/resources/error2.png"));
+    public static ImageIcon iconoInformativo = new ImageIcon(MensajesDePopup.class.getResource("/resources/info2.png"));
+    public static ImageIcon iconoAdvertencia = new ImageIcon(MensajesDePopup.class.getResource("/resources/alerta2.png"));
 
     public static void mostrarMensajeError(String mensaje, String titulo, JFrame panelPadre) {
         if (null == titulo) {
