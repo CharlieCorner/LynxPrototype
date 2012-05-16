@@ -51,7 +51,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                   <Component id="jTabbedPane4" min="-2" pref="760" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="19" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -60,7 +60,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jTabbedPane4" min="-2" pref="580" max="-2" attributes="0"/>
-                  <EmptySpace pref="19" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -110,7 +110,7 @@
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <EmptySpace pref="124" max="32767" attributes="0"/>
+                              <EmptySpace pref="110" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLayeredPane41" alignment="0" min="-2" pref="370" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
@@ -148,7 +148,7 @@
                                       <Component id="jLabel143" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace pref="86" max="32767" attributes="0"/>
+                              <EmptySpace pref="61" max="32767" attributes="0"/>
                               <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -330,7 +330,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane2">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -746,7 +746,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane3">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -1280,7 +1280,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane63">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -1696,7 +1696,7 @@
                     <Container class="javax.swing.JLayeredPane" name="Docentes">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -2675,7 +2675,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane4">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -2997,7 +2997,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane6">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -3440,7 +3440,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane55">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -3731,7 +3731,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane58">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -4139,7 +4139,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane45">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -4412,7 +4412,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane48">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -5322,7 +5322,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane69">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -5707,7 +5707,7 @@
                     <Container class="javax.swing.JLayeredPane" name="jLayeredPane73">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                          <Color blue="e2" green="eb" red="f0" type="rgb"/>
                         </Property>
                         <Property name="opaque" type="boolean" value="true"/>
                       </Properties>
@@ -6215,7 +6215,7 @@
                 <Container class="javax.swing.JLayeredPane" name="jLayeredPane8">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                      <Color blue="e2" green="eb" red="f0" type="rgb"/>
                     </Property>
                     <Property name="opaque" type="boolean" value="true"/>
                   </Properties>
@@ -6238,7 +6238,6 @@
                         </Property>
                       </Properties>
                       <AccessibilityProperties>
-                        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Par&#xe1;metros de Busqueda"/>
                         <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value=""/>
                       </AccessibilityProperties>
                       <Constraints>
@@ -6675,9 +6674,6 @@
                           </Border>
                         </Property>
                       </Properties>
-                      <AccessibilityProperties>
-                        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Per&#xed;odo"/>
-                      </AccessibilityProperties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
                           <JLayeredPaneConstraints x="410" y="20" width="310" height="50" layer="0" position="-1"/>
@@ -6734,7 +6730,7 @@
                 <Container class="javax.swing.JLayeredPane" name="jLayeredPane28">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                      <Color blue="e2" green="eb" red="f0" type="rgb"/>
                     </Property>
                     <Property name="opaque" type="boolean" value="true"/>
                   </Properties>
@@ -7829,7 +7825,7 @@
                 <Container class="javax.swing.JLayeredPane" name="jLayeredPane38">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                      <Color blue="e2" green="eb" red="f0" type="rgb"/>
                     </Property>
                     <Property name="opaque" type="boolean" value="true"/>
                   </Properties>
@@ -8208,7 +8204,7 @@
                 <Container class="javax.swing.JLayeredPane" name="jLayeredPane9">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                      <Color blue="f0" green="f0" red="f0" type="rgb"/>
+                      <Color blue="e2" green="eb" red="f0" type="rgb"/>
                     </Property>
                     <Property name="opaque" type="boolean" value="true"/>
                   </Properties>

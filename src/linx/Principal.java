@@ -601,7 +601,7 @@ public class Principal extends javax.swing.JFrame {
                 jPasswordField1ActionPerformed(evt);
             }
         });
-        jPasswordField1.setBounds(150, 70, 200, 20);
+        jPasswordField1.setBounds(150, 70, 200, 27);
         jLayeredPane41.add(jPasswordField1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane44.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
@@ -612,7 +612,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton30MouseReleased(evt);
             }
         });
-        jButton30.setBounds(190, 10, 100, 23);
+        jButton30.setBounds(190, 10, 100, 29);
         jLayeredPane44.add(jButton30, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton31.setText("Enviar");
@@ -626,7 +626,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton31ActionPerformed(evt);
             }
         });
-        jButton31.setBounds(80, 10, 100, 23);
+        jButton31.setBounds(80, 10, 100, 29);
         jLayeredPane44.add(jButton31, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel143.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/iPhoneIcon_Big.png"))); // NOI18N
@@ -638,7 +638,7 @@ public class Principal extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(124, Short.MAX_VALUE)
+                .addContainerGap(110, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLayeredPane41, javax.swing.GroupLayout.PREFERRED_SIZE, 370, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -667,7 +667,7 @@ public class Principal extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(53, 53, 53)
                         .addComponent(jLabel143)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 61, Short.MAX_VALUE)
                 .addComponent(jLabel26)
                 .addContainerGap())
         );
@@ -680,7 +680,7 @@ public class Principal extends javax.swing.JFrame {
 
         alumnos.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        jLayeredPane2.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane2.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane2.setOpaque(true);
 
         jLayeredPane11.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
@@ -691,7 +691,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton2MouseReleased(evt);
             }
         });
-        jButton2.setBounds(180, 10, 100, 23);
+        jButton2.setBounds(180, 10, 100, 29);
         jLayeredPane11.add(jButton2, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton1.setText("Guardar");
@@ -705,7 +705,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jButton1.setBounds(70, 10, 100, 23);
+        jButton1.setBounds(70, 10, 100, 29);
         jLayeredPane11.add(jButton1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane11.setBounds(10, 350, 370, 50);
@@ -836,7 +836,7 @@ public class Principal extends javax.swing.JFrame {
 
         alumnos.addTab("Nuevo", jLayeredPane2);
 
-        jLayeredPane3.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane3.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane3.setOpaque(true);
 
         jLayeredPane12.setBorder(javax.swing.BorderFactory.createTitledBorder("Parámetros de Búsqueda"));
@@ -852,7 +852,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        jButton6.setBounds(183, 50, 100, 23);
+        jButton6.setBounds(183, 50, 100, 29);
         jLayeredPane12.add(jButton6, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel21.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -1010,7 +1010,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton3MouseReleased(evt);
             }
         });
-        jButton3.setBounds(330, 10, 110, 23);
+        jButton3.setBounds(330, 10, 110, 29);
         jLayeredPane14.add(jButton3, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton4.setText("Eliminar");
@@ -1019,7 +1019,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton4MouseReleased(evt);
             }
         });
-        jButton4.setBounds(603, 10, 100, 23);
+        jButton4.setBounds(603, 10, 100, 29);
         jLayeredPane14.add(jButton4, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton5.setText("Limpiar");
@@ -1028,7 +1028,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton5MouseReleased(evt);
             }
         });
-        jButton5.setBounds(480, 10, 90, 23);
+        jButton5.setBounds(480, 10, 90, 29);
         jLayeredPane14.add(jButton5, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane14.setBounds(20, 360, 710, 50);
@@ -1040,7 +1040,7 @@ public class Principal extends javax.swing.JFrame {
 
         Docente.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        jLayeredPane63.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane63.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane63.setOpaque(true);
 
         jLayeredPane64.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
@@ -1051,7 +1051,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton48MouseReleased(evt);
             }
         });
-        jButton48.setBounds(180, 10, 100, 23);
+        jButton48.setBounds(180, 10, 100, 29);
         jLayeredPane64.add(jButton48, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton49.setText("Guardar");
@@ -1065,7 +1065,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton49ActionPerformed(evt);
             }
         });
-        jButton49.setBounds(70, 10, 100, 23);
+        jButton49.setBounds(70, 10, 100, 29);
         jLayeredPane64.add(jButton49, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane64.setBounds(10, 350, 370, 80);
@@ -1196,7 +1196,7 @@ public class Principal extends javax.swing.JFrame {
 
         Docente.addTab("Nuevo", jLayeredPane63);
 
-        Docentes.setBackground(new java.awt.Color(240, 240, 240));
+        Docentes.setBackground(new java.awt.Color(240, 235, 226));
         Docentes.setOpaque(true);
 
         jLayeredPane67.setBorder(javax.swing.BorderFactory.createTitledBorder("Parámetros de Búsqueda"));
@@ -1212,7 +1212,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton50ActionPerformed(evt);
             }
         });
-        jButton50.setBounds(183, 50, 100, 23);
+        jButton50.setBounds(183, 50, 100, 29);
         jLayeredPane67.add(jButton50, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel106.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -1253,7 +1253,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton51MouseReleased(evt);
             }
         });
-        jButton51.setBounds(330, 10, 110, 23);
+        jButton51.setBounds(330, 10, 110, 29);
         jLayeredPane70.add(jButton51, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton52.setText("Eliminar");
@@ -1262,7 +1262,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton52MouseReleased(evt);
             }
         });
-        jButton52.setBounds(603, 10, 100, 23);
+        jButton52.setBounds(603, 10, 100, 29);
         jLayeredPane70.add(jButton52, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton53.setText("Limpiar");
@@ -1271,7 +1271,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton53MouseReleased(evt);
             }
         });
-        jButton53.setBounds(480, 10, 90, 23);
+        jButton53.setBounds(480, 10, 90, 29);
         jLayeredPane70.add(jButton53, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane70.setBounds(20, 360, 710, 50);
@@ -1409,7 +1409,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton10MouseReleased(evt);
             }
         });
-        jButton10.setBounds(190, 10, 100, 23);
+        jButton10.setBounds(190, 10, 100, 29);
         jLayeredPane19.add(jButton10, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton9.setText("Guardar");
@@ -1418,7 +1418,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton9MouseReleased(evt);
             }
         });
-        jButton9.setBounds(80, 10, 100, 23);
+        jButton9.setBounds(80, 10, 100, 29);
         jLayeredPane19.add(jButton9, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane19.setBounds(10, 350, 370, 50);
@@ -1471,7 +1471,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton15MouseReleased(evt);
             }
         });
-        jButton15.setBounds(183, 50, 100, 23);
+        jButton15.setBounds(183, 50, 100, 29);
         jLayeredPane24.add(jButton15, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel23.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -1512,7 +1512,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton17MouseReleased(evt);
             }
         });
-        jButton17.setBounds(330, 10, 110, 23);
+        jButton17.setBounds(330, 10, 110, 29);
         jLayeredPane26.add(jButton17, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton18.setText("Limpiar");
@@ -1521,7 +1521,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton18MouseReleased(evt);
             }
         });
-        jButton18.setBounds(480, 10, 90, 23);
+        jButton18.setBounds(480, 10, 90, 29);
         jLayeredPane26.add(jButton18, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton16.setText("Eliminar");
@@ -1530,7 +1530,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton16MouseReleased(evt);
             }
         });
-        jButton16.setBounds(603, 10, 100, 23);
+        jButton16.setBounds(603, 10, 100, 29);
         jLayeredPane26.add(jButton16, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane26.setBounds(20, 360, 710, 50);
@@ -1571,7 +1571,7 @@ public class Principal extends javax.swing.JFrame {
 
         Materias.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        jLayeredPane4.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane4.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane4.setOpaque(true);
 
         jLayeredPane16.setBorder(javax.swing.BorderFactory.createTitledBorder("Datos de la Materia"));
@@ -1664,7 +1664,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton7MouseReleased(evt);
             }
         });
-        jButton7.setBounds(80, 10, 100, 23);
+        jButton7.setBounds(80, 10, 100, 29);
         jLayeredPane17.add(jButton7, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton8.setText("Limpiar");
@@ -1673,7 +1673,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton8MouseReleased(evt);
             }
         });
-        jButton8.setBounds(190, 10, 100, 23);
+        jButton8.setBounds(190, 10, 100, 29);
         jLayeredPane17.add(jButton8, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane17.setBounds(10, 350, 370, 50);
@@ -1689,7 +1689,7 @@ public class Principal extends javax.swing.JFrame {
 
         Materias.addTab("Nuevo", jLayeredPane4);
 
-        jLayeredPane6.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane6.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane6.setOpaque(true);
 
         jLayeredPane20.setBorder(javax.swing.BorderFactory.createTitledBorder("Parámetros de Búsqueda"));
@@ -1700,7 +1700,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton11MouseReleased(evt);
             }
         });
-        jButton11.setBounds(183, 50, 100, 23);
+        jButton11.setBounds(183, 50, 100, 29);
         jLayeredPane20.add(jButton11, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel22.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -1741,7 +1741,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton13MouseReleased(evt);
             }
         });
-        jButton13.setBounds(330, 10, 110, 23);
+        jButton13.setBounds(330, 10, 110, 29);
         jLayeredPane22.add(jButton13, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton14.setText("Limpiar");
@@ -1750,7 +1750,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton14MouseReleased(evt);
             }
         });
-        jButton14.setBounds(480, 10, 90, 23);
+        jButton14.setBounds(480, 10, 90, 29);
         jLayeredPane22.add(jButton14, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton12.setText("Eliminar");
@@ -1759,7 +1759,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton12MouseReleased(evt);
             }
         });
-        jButton12.setBounds(603, 10, 100, 23);
+        jButton12.setBounds(603, 10, 100, 29);
         jLayeredPane22.add(jButton12, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane22.setBounds(20, 360, 710, 50);
@@ -1856,7 +1856,7 @@ public class Principal extends javax.swing.JFrame {
         grupos.setBackground(new java.awt.Color(204, 204, 255));
         grupos.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        jLayeredPane55.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane55.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane55.setOpaque(true);
 
         jLayeredPane56.setBorder(javax.swing.BorderFactory.createTitledBorder("Datos de los Grupos"));
@@ -1938,7 +1938,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton42MouseReleased(evt);
             }
         });
-        jButton42.setBounds(80, 10, 100, 23);
+        jButton42.setBounds(80, 10, 100, 29);
         jLayeredPane57.add(jButton42, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton43.setText("Limpiar");
@@ -1947,7 +1947,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton43MouseReleased(evt);
             }
         });
-        jButton43.setBounds(190, 10, 100, 23);
+        jButton43.setBounds(190, 10, 100, 29);
         jLayeredPane57.add(jButton43, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane57.setBounds(10, 350, 370, 50);
@@ -1963,7 +1963,7 @@ public class Principal extends javax.swing.JFrame {
 
         grupos.addTab("Nuevo", jLayeredPane55);
 
-        jLayeredPane58.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane58.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane58.setOpaque(true);
 
         jLayeredPane59.setBorder(javax.swing.BorderFactory.createTitledBorder("Parámetros de Búsqueda"));
@@ -1974,7 +1974,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton44MouseReleased(evt);
             }
         });
-        jButton44.setBounds(183, 50, 100, 23);
+        jButton44.setBounds(183, 50, 100, 29);
         jLayeredPane59.add(jButton44, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel90.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -2015,7 +2015,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton45MouseReleased(evt);
             }
         });
-        jButton45.setBounds(330, 10, 110, 23);
+        jButton45.setBounds(330, 10, 110, 29);
         jLayeredPane61.add(jButton45, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton46.setText("Limpiar");
@@ -2024,7 +2024,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton46MouseReleased(evt);
             }
         });
-        jButton46.setBounds(480, 10, 90, 23);
+        jButton46.setBounds(480, 10, 90, 29);
         jLayeredPane61.add(jButton46, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton47.setText("Eliminar");
@@ -2033,7 +2033,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton47MouseReleased(evt);
             }
         });
-        jButton47.setBounds(603, 10, 100, 23);
+        jButton47.setBounds(603, 10, 100, 29);
         jLayeredPane61.add(jButton47, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane61.setBounds(20, 360, 710, 50);
@@ -2117,7 +2117,7 @@ public class Principal extends javax.swing.JFrame {
         Escenario.setBackground(new java.awt.Color(217, 149, 148));
         Escenario.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        jLayeredPane45.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane45.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane45.setOpaque(true);
 
         jLayeredPane46.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
@@ -2128,7 +2128,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton32MouseReleased(evt);
             }
         });
-        jButton32.setBounds(180, 30, 100, 23);
+        jButton32.setBounds(180, 30, 100, 29);
         jLayeredPane46.add(jButton32, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton33.setText("Guardar");
@@ -2142,7 +2142,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton33ActionPerformed(evt);
             }
         });
-        jButton33.setBounds(70, 30, 100, 23);
+        jButton33.setBounds(70, 30, 100, 29);
         jLayeredPane46.add(jButton33, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane46.setBounds(10, 350, 370, 80);
@@ -2198,14 +2198,14 @@ public class Principal extends javax.swing.JFrame {
         jLayeredPane47.add(ctaalu5, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Laboratorio", "Sala de Cómputo", "Taller" }));
-        jComboBox1.setBounds(150, 80, 200, 20);
+        jComboBox1.setBounds(150, 80, 200, 27);
         jLayeredPane47.add(jComboBox1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jScrollPane7.setViewportView(jTextArea1);
 
-        jScrollPane7.setBounds(150, 140, 200, 96);
+        jScrollPane7.setBounds(150, 140, 200, 87);
         jLayeredPane47.add(jScrollPane7, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane47.setBounds(10, 10, 370, 330);
@@ -2221,7 +2221,7 @@ public class Principal extends javax.swing.JFrame {
 
         Escenario.addTab("Nuevo", jLayeredPane45);
 
-        jLayeredPane48.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane48.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane48.setOpaque(true);
 
         jLayeredPane50.setBorder(javax.swing.BorderFactory.createTitledBorder("Resultado de Búsqueda"));
@@ -2248,7 +2248,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton35MouseReleased(evt);
             }
         });
-        jButton35.setBounds(330, 10, 110, 23);
+        jButton35.setBounds(330, 10, 110, 29);
         jLayeredPane54.add(jButton35, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton36.setText("Eliminar");
@@ -2257,7 +2257,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton36MouseReleased(evt);
             }
         });
-        jButton36.setBounds(603, 10, 100, 23);
+        jButton36.setBounds(603, 10, 100, 29);
         jLayeredPane54.add(jButton36, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton37.setText("Limpiar");
@@ -2266,7 +2266,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton37MouseReleased(evt);
             }
         });
-        jButton37.setBounds(480, 10, 90, 23);
+        jButton37.setBounds(480, 10, 90, 29);
         jLayeredPane54.add(jButton37, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane54.setBounds(20, 360, 710, 50);
@@ -2329,14 +2329,14 @@ public class Principal extends javax.swing.JFrame {
                 jComboBox2ActionPerformed(evt);
             }
         });
-        jComboBox2.setBounds(150, 80, 200, 20);
+        jComboBox2.setBounds(150, 80, 200, 27);
         jLayeredPane53.add(jComboBox2, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jTextArea2.setColumns(20);
         jTextArea2.setRows(5);
         jScrollPane8.setViewportView(jTextArea2);
 
-        jScrollPane8.setBounds(150, 140, 200, 96);
+        jScrollPane8.setBounds(150, 140, 200, 87);
         jLayeredPane53.add(jScrollPane8, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane53.setBounds(350, 10, 370, 340);
@@ -2355,7 +2355,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton34ActionPerformed(evt);
             }
         });
-        jButton34.setBounds(183, 50, 100, 23);
+        jButton34.setBounds(183, 50, 100, 29);
         jLayeredPane49.add(jButton34, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel82.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -2388,7 +2388,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton60MouseReleased(evt);
             }
         });
-        jButton60.setBounds(190, 10, 100, 23);
+        jButton60.setBounds(190, 10, 100, 29);
         jLayeredPane79.add(jButton60, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton61.setText("Guardar");
@@ -2397,7 +2397,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton61MouseReleased(evt);
             }
         });
-        jButton61.setBounds(80, 10, 100, 23);
+        jButton61.setBounds(80, 10, 100, 29);
         jLayeredPane79.add(jButton61, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane79.setBounds(10, 350, 370, 50);
@@ -2424,7 +2424,7 @@ public class Principal extends javax.swing.JFrame {
         jLayeredPane80.add(cvecar3, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Definitiva", "Temporal", "Materias" }));
-        jComboBox3.setBounds(150, 110, 200, 20);
+        jComboBox3.setBounds(150, 110, 200, 27);
         jLayeredPane80.add(jComboBox3, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel141.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -2461,7 +2461,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton62MouseReleased(evt);
             }
         });
-        jButton62.setBounds(183, 50, 100, 23);
+        jButton62.setBounds(183, 50, 100, 29);
         jLayeredPane82.add(jButton62, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel136.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -2502,7 +2502,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton63MouseReleased(evt);
             }
         });
-        jButton63.setBounds(330, 10, 110, 23);
+        jButton63.setBounds(330, 10, 110, 29);
         jLayeredPane84.add(jButton63, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton64.setText("Limpiar");
@@ -2511,7 +2511,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton64MouseReleased(evt);
             }
         });
-        jButton64.setBounds(480, 10, 90, 23);
+        jButton64.setBounds(480, 10, 90, 29);
         jLayeredPane84.add(jButton64, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton65.setText("Eliminar");
@@ -2520,7 +2520,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton65MouseReleased(evt);
             }
         });
-        jButton65.setBounds(603, 10, 100, 23);
+        jButton65.setBounds(603, 10, 100, 29);
         jLayeredPane84.add(jButton65, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane84.setBounds(20, 360, 710, 50);
@@ -2547,7 +2547,7 @@ public class Principal extends javax.swing.JFrame {
         jLayeredPane85.add(cvecar4, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Definitiva", "Temporal", "Materias" }));
-        jComboBox4.setBounds(150, 110, 200, 20);
+        jComboBox4.setBounds(150, 110, 200, 27);
         jLayeredPane85.add(jComboBox4, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel142.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -2572,7 +2572,7 @@ public class Principal extends javax.swing.JFrame {
 
         tutores.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        jLayeredPane69.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane69.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane69.setOpaque(true);
 
         jLayeredPane71.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
@@ -2583,7 +2583,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton54MouseReleased(evt);
             }
         });
-        jButton54.setBounds(180, 20, 100, 23);
+        jButton54.setBounds(180, 20, 100, 29);
         jLayeredPane71.add(jButton54, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton55.setText("Guardar");
@@ -2597,7 +2597,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton55ActionPerformed(evt);
             }
         });
-        jButton55.setBounds(70, 20, 100, 23);
+        jButton55.setBounds(70, 20, 100, 29);
         jLayeredPane71.add(jButton55, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane71.setBounds(10, 350, 370, 70);
@@ -2717,7 +2717,7 @@ public class Principal extends javax.swing.JFrame {
 
         tutores.addTab("Nuevo", jLayeredPane69);
 
-        jLayeredPane73.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane73.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane73.setOpaque(true);
 
         jLayeredPane74.setBorder(javax.swing.BorderFactory.createTitledBorder("Parámetros de Búsqueda"));
@@ -2733,7 +2733,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton56ActionPerformed(evt);
             }
         });
-        jButton56.setBounds(183, 50, 100, 23);
+        jButton56.setBounds(183, 50, 100, 29);
         jLayeredPane74.add(jButton56, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel127.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -2774,7 +2774,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton57MouseReleased(evt);
             }
         });
-        jButton57.setBounds(330, 10, 110, 23);
+        jButton57.setBounds(330, 10, 110, 29);
         jLayeredPane77.add(jButton57, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton58.setText("Eliminar");
@@ -2783,7 +2783,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton58MouseReleased(evt);
             }
         });
-        jButton58.setBounds(603, 10, 100, 23);
+        jButton58.setBounds(603, 10, 100, 29);
         jLayeredPane77.add(jButton58, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton59.setText("Limpiar");
@@ -2792,7 +2792,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton59MouseReleased(evt);
             }
         });
-        jButton59.setBounds(480, 10, 90, 23);
+        jButton59.setBounds(480, 10, 90, 29);
         jLayeredPane77.add(jButton59, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane77.setBounds(20, 360, 710, 50);
@@ -2913,7 +2913,7 @@ public class Principal extends javax.swing.JFrame {
         jTabbedPane6.setBackground(new java.awt.Color(204, 204, 255));
         jTabbedPane6.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        jLayeredPane8.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane8.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane8.setOpaque(true);
 
         jLayeredPane29.setBorder(javax.swing.BorderFactory.createTitledBorder("Parámetros de Busqueda"));
@@ -2925,7 +2925,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton19MouseReleased(evt);
             }
         });
-        jButton19.setBounds(190, 50, 100, 21);
+        jButton19.setBounds(190, 50, 100, 25);
         jLayeredPane29.add(jButton19, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel24.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -2941,7 +2941,6 @@ public class Principal extends javax.swing.JFrame {
 
         jLayeredPane29.setBounds(20, 20, 300, 90);
         jLayeredPane8.add(jLayeredPane29, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane29.getAccessibleContext().setAccessibleName("Parámetros de Busqueda");
         jLayeredPane29.getAccessibleContext().setAccessibleDescription("");
 
         jLayeredPane30.setBorder(javax.swing.BorderFactory.createTitledBorder("Datos del Alumno"));
@@ -3015,7 +3014,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton21ActionPerformed(evt);
             }
         });
-        jButton21.setBounds(450, 20, 210, 21);
+        jButton21.setBounds(450, 20, 210, 25);
         jLayeredPane32.add(jButton21, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel27.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -3053,7 +3052,7 @@ public class Principal extends javax.swing.JFrame {
 
         jButton23.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jButton23.setText("Seleccionar Carrera");
-        jButton23.setBounds(159, 50, 140, 21);
+        jButton23.setBounds(159, 50, 140, 25);
         jLayeredPane33.add(jButton23, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jButton25.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
@@ -3063,7 +3062,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton25MouseReleased(evt);
             }
         });
-        jButton25.setBounds(180, 10, 140, 21);
+        jButton25.setBounds(180, 10, 140, 25);
         jLayeredPane33.add(jButton25, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane33.setBounds(20, 460, 710, 40);
@@ -3083,7 +3082,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton20ActionPerformed(evt);
             }
         });
-        jButton20.setBounds(170, 60, 120, 21);
+        jButton20.setBounds(170, 60, 120, 25);
         jLayeredPane34.add(jButton20, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         comboMat1.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -3108,7 +3107,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton28MouseReleased(evt);
             }
         });
-        jButton28.setBounds(160, 20, 140, 21);
+        jButton28.setBounds(160, 20, 140, 25);
         jLayeredPane37.add(jButton28, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         textnomper1.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
@@ -3122,11 +3121,10 @@ public class Principal extends javax.swing.JFrame {
 
         jLayeredPane37.setBounds(410, 20, 310, 50);
         jLayeredPane8.add(jLayeredPane37, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane37.getAccessibleContext().setAccessibleName("Período");
 
         jTabbedPane6.addTab("Reinscribir Alumno", jLayeredPane8);
 
-        jLayeredPane28.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane28.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane28.setOpaque(true);
 
         jLayeredPane35.setBorder(javax.swing.BorderFactory.createTitledBorder("Parámetros de Busqueda"));
@@ -3138,7 +3136,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton22MouseReleased(evt);
             }
         });
-        jButton22.setBounds(180, 90, 100, 27);
+        jButton22.setBounds(180, 90, 100, 30);
         jLayeredPane35.add(jButton22, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel47.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -3332,7 +3330,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat1ActionPerformed(evt);
             }
         });
-        chkmat1.setBounds(250, 110, 20, 21);
+        chkmat1.setBounds(250, 110, 20, 22);
         jLayeredPane36.add(chkmat1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3350,7 +3348,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmatActionPerformed(evt);
             }
         });
-        chkmat.setBounds(250, 90, 20, 21);
+        chkmat.setBounds(250, 90, 20, 22);
         jLayeredPane36.add(chkmat, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3363,7 +3361,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat2ActionPerformed(evt);
             }
         });
-        chkmat2.setBounds(250, 130, 20, 21);
+        chkmat2.setBounds(250, 130, 20, 22);
         jLayeredPane36.add(chkmat2, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3376,7 +3374,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat3ActionPerformed(evt);
             }
         });
-        chkmat3.setBounds(250, 150, 20, 21);
+        chkmat3.setBounds(250, 150, 20, 22);
         jLayeredPane36.add(chkmat3, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3389,7 +3387,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat4ActionPerformed(evt);
             }
         });
-        chkmat4.setBounds(250, 170, 20, 21);
+        chkmat4.setBounds(250, 170, 20, 22);
         jLayeredPane36.add(chkmat4, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3402,7 +3400,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat5ActionPerformed(evt);
             }
         });
-        chkmat5.setBounds(250, 190, 20, 21);
+        chkmat5.setBounds(250, 190, 20, 22);
         jLayeredPane36.add(chkmat5, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3415,7 +3413,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat6ActionPerformed(evt);
             }
         });
-        chkmat6.setBounds(250, 210, 20, 21);
+        chkmat6.setBounds(250, 210, 20, 22);
         jLayeredPane36.add(chkmat6, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat7.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3428,7 +3426,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat7ActionPerformed(evt);
             }
         });
-        chkmat7.setBounds(250, 230, 20, 21);
+        chkmat7.setBounds(250, 230, 20, 22);
         jLayeredPane36.add(chkmat7, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3441,7 +3439,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat8ActionPerformed(evt);
             }
         });
-        chkmat8.setBounds(250, 250, 20, 21);
+        chkmat8.setBounds(250, 250, 20, 22);
         jLayeredPane36.add(chkmat8, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat9.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3454,7 +3452,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat9ActionPerformed(evt);
             }
         });
-        chkmat9.setBounds(250, 270, 20, 21);
+        chkmat9.setBounds(250, 270, 20, 22);
         jLayeredPane36.add(chkmat9, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat10.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3467,7 +3465,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat10ActionPerformed(evt);
             }
         });
-        chkmat10.setBounds(550, 90, 20, 21);
+        chkmat10.setBounds(550, 90, 20, 22);
         jLayeredPane36.add(chkmat10, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat11.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3480,7 +3478,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat11ActionPerformed(evt);
             }
         });
-        chkmat11.setBounds(550, 110, 20, 21);
+        chkmat11.setBounds(550, 110, 20, 22);
         jLayeredPane36.add(chkmat11, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat12.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3493,7 +3491,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat12ActionPerformed(evt);
             }
         });
-        chkmat12.setBounds(550, 130, 20, 21);
+        chkmat12.setBounds(550, 130, 20, 22);
         jLayeredPane36.add(chkmat12, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat13.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3506,7 +3504,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat13ActionPerformed(evt);
             }
         });
-        chkmat13.setBounds(550, 150, 20, 21);
+        chkmat13.setBounds(550, 150, 20, 22);
         jLayeredPane36.add(chkmat13, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat14.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3519,7 +3517,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat14ActionPerformed(evt);
             }
         });
-        chkmat14.setBounds(550, 170, 20, 21);
+        chkmat14.setBounds(550, 170, 20, 22);
         jLayeredPane36.add(chkmat14, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat15.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3532,7 +3530,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat15ActionPerformed(evt);
             }
         });
-        chkmat15.setBounds(550, 190, 20, 21);
+        chkmat15.setBounds(550, 190, 20, 22);
         jLayeredPane36.add(chkmat15, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat16.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3545,7 +3543,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat16ActionPerformed(evt);
             }
         });
-        chkmat16.setBounds(550, 210, 20, 21);
+        chkmat16.setBounds(550, 210, 20, 22);
         jLayeredPane36.add(chkmat16, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat17.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3558,7 +3556,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat17ActionPerformed(evt);
             }
         });
-        chkmat17.setBounds(550, 230, 20, 21);
+        chkmat17.setBounds(550, 230, 20, 22);
         jLayeredPane36.add(chkmat17, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         chkmat18.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -3571,7 +3569,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat18ActionPerformed(evt);
             }
         });
-        chkmat18.setBounds(550, 250, 20, 21);
+        chkmat18.setBounds(550, 250, 20, 22);
         jLayeredPane36.add(chkmat18, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel55.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -3592,7 +3590,7 @@ public class Principal extends javax.swing.JFrame {
                 chkmat19ActionPerformed(evt);
             }
         });
-        chkmat19.setBounds(550, 270, 20, 21);
+        chkmat19.setBounds(550, 270, 20, 22);
         jLayeredPane36.add(chkmat19, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel54.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -3705,7 +3703,7 @@ public class Principal extends javax.swing.JFrame {
 
         jTabbedPane6.addTab("Calificar Alumno", jLayeredPane28);
 
-        jLayeredPane38.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane38.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane38.setOpaque(true);
 
         jLayeredPane39.setBorder(javax.swing.BorderFactory.createTitledBorder("Parámetros de Busqueda"));
@@ -3717,7 +3715,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton27MouseReleased(evt);
             }
         });
-        jButton27.setBounds(180, 90, 100, 23);
+        jButton27.setBounds(180, 90, 100, 27);
         jLayeredPane39.add(jButton27, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel50.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -3821,7 +3819,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton29ActionPerformed(evt);
             }
         });
-        jButton29.setBounds(460, 20, 210, 21);
+        jButton29.setBounds(460, 20, 210, 25);
         jLayeredPane40.add(jButton29, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane40.setBounds(10, 200, 720, 260);
@@ -3854,7 +3852,7 @@ public class Principal extends javax.swing.JFrame {
 
         jTabbedPane6.addTab("Consulta de Reinscripciones", jLayeredPane38);
 
-        jLayeredPane9.setBackground(new java.awt.Color(240, 240, 240));
+        jLayeredPane9.setBackground(new java.awt.Color(240, 235, 226));
         jLayeredPane9.setOpaque(true);
 
         jLayeredPane31.setBorder(javax.swing.BorderFactory.createTitledBorder("Parámetros de Busqueda"));
@@ -3871,7 +3869,7 @@ public class Principal extends javax.swing.JFrame {
                 jButton26ActionPerformed(evt);
             }
         });
-        jButton26.setBounds(183, 50, 100, 21);
+        jButton26.setBounds(183, 50, 100, 25);
         jLayeredPane31.add(jButton26, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLabel25.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
@@ -3909,14 +3907,14 @@ public class Principal extends javax.swing.JFrame {
             .addGroup(jInternalFrame1Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(jTabbedPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 760, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
         jInternalFrame1Layout.setVerticalGroup(
             jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jInternalFrame1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jTabbedPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 580, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         getContentPane().add(jInternalFrame1);
