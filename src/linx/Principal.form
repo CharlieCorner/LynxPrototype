@@ -6329,7 +6329,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="N&#xfa;mero de Cuenta:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -6381,7 +6381,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Apellido Paterno:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -6403,7 +6403,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Apellido Materno"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -6438,7 +6438,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Nombre:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -6460,7 +6460,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="N&#xfa;mero de Cuenta:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -6556,7 +6556,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Carrera:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -6711,7 +6711,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Selecione una Materia:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -6730,7 +6730,7 @@
                         <Component class="javax.swing.JComboBox" name="comboMat1">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                               <StringArray count="5">
@@ -6791,7 +6791,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Per&#xed;odo Seleccionado:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -6813,7 +6813,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Selecione el Per&#xed;odo:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -6907,7 +6907,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="N&#xfa;mero de Cuenta:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -6929,7 +6929,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Periodo"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -7011,7 +7011,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="0"/>
                             <Property name="text" type="java.lang.String" value="Acreditada"/>
@@ -7031,7 +7031,7 @@
                         <Component class="javax.swing.JLabel" name="txtnomcar3">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Ingenieria en Sistemas Computacionales"/>
                             <Property name="opaque" type="boolean" value="true"/>
@@ -7600,7 +7600,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="0"/>
                             <Property name="text" type="java.lang.String" value="Nombre"/>
@@ -7634,7 +7634,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Carrera:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -7656,7 +7656,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="0"/>
                             <Property name="text" type="java.lang.String" value="Acreditada"/>
@@ -7679,7 +7679,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="0"/>
                             <Property name="text" type="java.lang.String" value="Nombre"/>
@@ -7720,7 +7720,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Apellido Materno"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -7742,7 +7742,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Apellido Paterno:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -7764,7 +7764,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Nombre:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -7812,7 +7812,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="N&#xfa;mero de Cuenta:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -7875,7 +7875,7 @@
                         <Component class="javax.swing.JButton" name="jButton40">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Limpiar"/>
                           </Properties>
@@ -7891,7 +7891,7 @@
                         <Component class="javax.swing.JButton" name="jButton38">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Guardar Cambios"/>
                           </Properties>
@@ -7938,7 +7938,7 @@
                         <Component class="javax.swing.JButton" name="jButton27">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Buscar"/>
                           </Properties>
@@ -7957,7 +7957,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Periodo"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -7979,7 +7979,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="N&#xfa;mero de Cuenta:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -8043,7 +8043,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Apellido Materno"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -8065,7 +8065,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Apellido Paterno:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -8100,7 +8100,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Nombre:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -8122,7 +8122,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="N&#xfa;mero de Cuenta:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -8254,7 +8254,7 @@
                         <Component class="javax.swing.JButton" name="jButton41">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Limpiar"/>
                           </Properties>
@@ -8270,7 +8270,7 @@
                         <Component class="javax.swing.JButton" name="jButton39">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Guardar Cambios"/>
                           </Properties>
@@ -8337,7 +8337,7 @@
                               <Color blue="ff" green="cc" red="cc" type="rgb"/>
                             </Property>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Comic Sans MS" size="12" style="0"/>
+                              <Font name="Arial" size="12" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="N&#xfa;mero de Cuenta:"/>
                             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
