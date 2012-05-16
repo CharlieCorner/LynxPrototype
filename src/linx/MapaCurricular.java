@@ -31,11 +31,11 @@ public class MapaCurricular extends javax.swing.JFrame {
     private void initComponents() {
 
         jLayeredPane39 = new javax.swing.JLayeredPane();
-        jLayeredPane38 = new javax.swing.JLayeredPane();
         jScrollPane9 = new javax.swing.JScrollPane();
         txtmat11 = new javax.swing.JTextPane();
         jScrollPane10 = new javax.swing.JScrollPane();
         txtmat12 = new javax.swing.JTextPane();
+        jLayeredPane38 = new javax.swing.JLayeredPane();
         jScrollPane11 = new javax.swing.JScrollPane();
         txtmat13 = new javax.swing.JTextPane();
         jScrollPane12 = new javax.swing.JScrollPane();
@@ -178,8 +178,8 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane80 = new javax.swing.JScrollPane();
         txtmat97 = new javax.swing.JTextPane();
         jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jTextField3 = new javax.swing.JTextField();
@@ -197,14 +197,10 @@ public class MapaCurricular extends javax.swing.JFrame {
 
         jLayeredPane39.setBorder(javax.swing.BorderFactory.createTitledBorder("Mapa  Curricular"));
 
-        jLayeredPane38.setBorder(javax.swing.BorderFactory.createTitledBorder("Estado de Materias"));
-        jLayeredPane38.setBounds(370, 20, 350, 110);
-        jLayeredPane39.add(jLayeredPane38, javax.swing.JLayeredPane.DEFAULT_LAYER);
-
         jScrollPane9.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat11.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat11.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat11.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane9.setViewportView(txtmat11);
 
         jScrollPane9.setBounds(40, 140, 100, 50);
@@ -213,16 +209,22 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane10.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat12.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat12.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat12.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane10.setViewportView(txtmat12);
 
         jScrollPane10.setBounds(140, 140, 100, 50);
         jLayeredPane39.add(jScrollPane10, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
+        jLayeredPane38.setBorder(javax.swing.BorderFactory.createTitledBorder("Estado de Materias"));
+        jLayeredPane38.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
+        jLayeredPane38.setName(""); // NOI18N
+        jLayeredPane38.setBounds(370, 20, 370, 120);
+        jLayeredPane39.add(jLayeredPane38, javax.swing.JLayeredPane.DEFAULT_LAYER);
+
         jScrollPane11.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat13.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat13.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat13.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane11.setViewportView(txtmat13);
 
         jScrollPane11.setBounds(240, 140, 100, 50);
@@ -231,7 +233,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane12.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat14.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat14.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat14.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane12.setViewportView(txtmat14);
 
         jScrollPane12.setBounds(340, 140, 100, 50);
@@ -240,7 +242,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane13.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat15.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat15.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat15.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane13.setViewportView(txtmat15);
 
         jScrollPane13.setBounds(440, 140, 100, 50);
@@ -249,7 +251,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane14.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat16.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat16.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat16.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane14.setViewportView(txtmat16);
 
         jScrollPane14.setBounds(540, 140, 100, 50);
@@ -258,7 +260,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane15.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat17.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat17.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat17.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane15.setViewportView(txtmat17);
 
         jScrollPane15.setBounds(640, 140, 100, 50);
@@ -267,7 +269,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane16.setBackground(new java.awt.Color(255, 51, 51));
 
         jTextPane5.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTextPane5.setFont(new java.awt.Font("Arial", 0, 36));
+        jTextPane5.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jTextPane5.setText("1");
         jScrollPane16.setViewportView(jTextPane5);
 
@@ -277,7 +279,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane17.setBackground(new java.awt.Color(255, 51, 51));
 
         jTextPane6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTextPane6.setFont(new java.awt.Font("Arial", 0, 36));
+        jTextPane6.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jTextPane6.setText("2");
         jScrollPane17.setViewportView(jTextPane6);
 
@@ -287,7 +289,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane18.setBackground(new java.awt.Color(255, 51, 51));
 
         jTextPane7.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTextPane7.setFont(new java.awt.Font("Arial", 0, 36));
+        jTextPane7.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jTextPane7.setText("3");
         jScrollPane18.setViewportView(jTextPane7);
 
@@ -297,7 +299,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane19.setBackground(new java.awt.Color(255, 51, 51));
 
         jTextPane8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTextPane8.setFont(new java.awt.Font("Arial", 0, 36));
+        jTextPane8.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jTextPane8.setText("9");
         jScrollPane19.setViewportView(jTextPane8);
 
@@ -307,7 +309,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane22.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat21.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat21.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat21.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane22.setViewportView(txtmat21);
 
         jScrollPane22.setBounds(40, 190, 100, 50);
@@ -316,7 +318,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane23.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat22.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat22.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat22.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane23.setViewportView(txtmat22);
 
         jScrollPane23.setBounds(140, 190, 100, 50);
@@ -325,7 +327,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane24.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat23.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat23.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat23.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane24.setViewportView(txtmat23);
 
         jScrollPane24.setBounds(240, 190, 100, 50);
@@ -334,7 +336,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane25.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat24.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat24.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat24.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane25.setViewportView(txtmat24);
 
         jScrollPane25.setBounds(340, 190, 100, 50);
@@ -343,7 +345,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane26.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat25.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat25.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat25.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane26.setViewportView(txtmat25);
 
         jScrollPane26.setBounds(440, 190, 100, 50);
@@ -352,7 +354,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane27.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat26.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat26.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat26.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane27.setViewportView(txtmat26);
 
         jScrollPane27.setBounds(540, 190, 100, 50);
@@ -361,7 +363,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane28.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat27.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat27.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat27.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane28.setViewportView(txtmat27);
 
         jScrollPane28.setBounds(640, 190, 100, 50);
@@ -379,7 +381,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane30.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat32.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat32.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat32.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane30.setViewportView(txtmat32);
 
         jScrollPane30.setBounds(140, 240, 100, 50);
@@ -388,7 +390,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane31.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat33.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat33.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat33.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane31.setViewportView(txtmat33);
 
         jScrollPane31.setBounds(240, 240, 100, 50);
@@ -397,7 +399,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane32.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat34.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat34.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat34.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane32.setViewportView(txtmat34);
 
         jScrollPane32.setBounds(340, 240, 100, 50);
@@ -406,7 +408,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane33.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat35.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat35.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat35.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane33.setViewportView(txtmat35);
 
         jScrollPane33.setBounds(440, 240, 100, 50);
@@ -415,7 +417,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane34.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat36.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat36.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat36.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane34.setViewportView(txtmat36);
 
         jScrollPane34.setBounds(540, 240, 100, 50);
@@ -424,7 +426,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane35.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat37.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat37.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat37.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane35.setViewportView(txtmat37);
 
         jScrollPane35.setBounds(640, 240, 100, 50);
@@ -433,7 +435,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane36.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat41.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat41.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat41.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane36.setViewportView(txtmat41);
 
         jScrollPane36.setBounds(40, 290, 100, 50);
@@ -442,7 +444,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane37.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat42.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat42.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat42.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane37.setViewportView(txtmat42);
 
         jScrollPane37.setBounds(140, 290, 100, 50);
@@ -451,7 +453,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane38.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat43.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat43.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat43.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane38.setViewportView(txtmat43);
 
         jScrollPane38.setBounds(240, 290, 100, 50);
@@ -460,7 +462,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane39.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat44.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat44.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat44.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane39.setViewportView(txtmat44);
 
         jScrollPane39.setBounds(340, 290, 100, 50);
@@ -469,7 +471,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane40.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat45.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat45.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat45.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane40.setViewportView(txtmat45);
 
         jScrollPane40.setBounds(440, 290, 100, 50);
@@ -478,7 +480,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane41.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat46.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat46.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat46.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane41.setViewportView(txtmat46);
 
         jScrollPane41.setBounds(540, 290, 100, 50);
@@ -487,7 +489,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane42.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat47.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat47.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat47.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane42.setViewportView(txtmat47);
 
         jScrollPane42.setBounds(640, 290, 100, 50);
@@ -499,13 +501,13 @@ public class MapaCurricular extends javax.swing.JFrame {
                 jButton1MouseReleased(evt);
             }
         });
-        jButton1.setBounds(230, 610, 250, 23);
+        jButton1.setBounds(230, 610, 250, 29);
         jLayeredPane39.add(jButton1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jScrollPane43.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat51.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat51.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat51.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane43.setViewportView(txtmat51);
 
         jScrollPane43.setBounds(40, 340, 100, 50);
@@ -514,7 +516,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane44.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat52.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat52.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat52.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane44.setViewportView(txtmat52);
 
         jScrollPane44.setBounds(140, 340, 100, 50);
@@ -523,7 +525,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane45.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat53.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat53.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat53.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane45.setViewportView(txtmat53);
 
         jScrollPane45.setBounds(240, 340, 100, 50);
@@ -532,7 +534,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane46.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat54.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat54.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat54.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane46.setViewportView(txtmat54);
 
         jScrollPane46.setBounds(340, 340, 100, 50);
@@ -541,7 +543,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane47.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat55.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat55.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat55.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane47.setViewportView(txtmat55);
 
         jScrollPane47.setBounds(440, 340, 100, 50);
@@ -550,7 +552,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane48.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat56.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat56.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat56.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane48.setViewportView(txtmat56);
 
         jScrollPane48.setBounds(540, 340, 100, 50);
@@ -559,7 +561,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane49.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat57.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat57.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat57.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane49.setViewportView(txtmat57);
 
         jScrollPane49.setBounds(640, 340, 100, 50);
@@ -568,7 +570,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane20.setBackground(new java.awt.Color(255, 51, 51));
 
         jTextPane9.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTextPane9.setFont(new java.awt.Font("Arial", 0, 36));
+        jTextPane9.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jTextPane9.setText("4");
         jScrollPane20.setViewportView(jTextPane9);
 
@@ -578,7 +580,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane21.setBackground(new java.awt.Color(255, 51, 51));
 
         jTextPane10.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTextPane10.setFont(new java.awt.Font("Arial", 0, 36));
+        jTextPane10.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jTextPane10.setText("5");
         jScrollPane21.setViewportView(jTextPane10);
 
@@ -588,7 +590,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane50.setBackground(new java.awt.Color(255, 51, 51));
 
         jTextPane11.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTextPane11.setFont(new java.awt.Font("Arial", 0, 36));
+        jTextPane11.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jTextPane11.setText("6");
         jScrollPane50.setViewportView(jTextPane11);
 
@@ -598,7 +600,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane51.setBackground(new java.awt.Color(255, 51, 51));
 
         jTextPane12.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTextPane12.setFont(new java.awt.Font("Arial", 0, 36));
+        jTextPane12.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jTextPane12.setText("7");
         jScrollPane51.setViewportView(jTextPane12);
 
@@ -608,7 +610,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane52.setBackground(new java.awt.Color(255, 51, 51));
 
         jTextPane13.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jTextPane13.setFont(new java.awt.Font("Arial", 0, 36));
+        jTextPane13.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jTextPane13.setText("8");
         jScrollPane52.setViewportView(jTextPane13);
 
@@ -618,7 +620,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane53.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat61.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat61.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat61.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane53.setViewportView(txtmat61);
 
         jScrollPane53.setBounds(40, 390, 100, 50);
@@ -627,7 +629,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane54.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat71.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat71.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat71.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane54.setViewportView(txtmat71);
 
         jScrollPane54.setBounds(40, 440, 100, 50);
@@ -636,7 +638,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane55.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat81.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat81.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat81.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane55.setViewportView(txtmat81);
 
         jScrollPane55.setBounds(40, 490, 100, 50);
@@ -645,7 +647,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane56.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat91.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat91.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat91.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane56.setViewportView(txtmat91);
 
         jScrollPane56.setBounds(40, 540, 100, 50);
@@ -654,7 +656,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane57.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat62.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat62.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat62.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane57.setViewportView(txtmat62);
 
         jScrollPane57.setBounds(140, 390, 100, 50);
@@ -663,7 +665,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane58.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat63.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat63.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat63.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane58.setViewportView(txtmat63);
 
         jScrollPane58.setBounds(240, 390, 100, 50);
@@ -672,7 +674,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane59.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat64.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat64.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat64.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane59.setViewportView(txtmat64);
 
         jScrollPane59.setBounds(340, 390, 100, 50);
@@ -681,7 +683,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane60.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat65.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat65.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat65.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane60.setViewportView(txtmat65);
 
         jScrollPane60.setBounds(440, 390, 100, 50);
@@ -690,7 +692,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane61.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat66.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat66.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat66.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane61.setViewportView(txtmat66);
 
         jScrollPane61.setBounds(540, 390, 100, 50);
@@ -699,7 +701,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane62.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat67.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat67.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat67.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane62.setViewportView(txtmat67);
 
         jScrollPane62.setBounds(640, 390, 100, 50);
@@ -708,7 +710,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane63.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat72.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat72.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat72.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane63.setViewportView(txtmat72);
 
         jScrollPane63.setBounds(140, 440, 100, 50);
@@ -717,7 +719,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane64.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat73.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat73.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat73.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane64.setViewportView(txtmat73);
 
         jScrollPane64.setBounds(240, 440, 100, 50);
@@ -726,7 +728,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane65.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat74.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat74.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat74.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane65.setViewportView(txtmat74);
 
         jScrollPane65.setBounds(340, 440, 100, 50);
@@ -735,7 +737,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane66.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat75.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat75.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat75.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane66.setViewportView(txtmat75);
 
         jScrollPane66.setBounds(440, 440, 100, 50);
@@ -744,7 +746,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane67.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat76.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat76.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat76.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane67.setViewportView(txtmat76);
 
         jScrollPane67.setBounds(540, 440, 100, 50);
@@ -753,7 +755,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane68.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat77.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat77.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat77.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane68.setViewportView(txtmat77);
 
         jScrollPane68.setBounds(640, 440, 100, 50);
@@ -762,7 +764,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane69.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat82.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat82.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat82.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane69.setViewportView(txtmat82);
 
         jScrollPane69.setBounds(140, 490, 100, 50);
@@ -771,7 +773,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane70.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat83.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat83.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat83.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane70.setViewportView(txtmat83);
 
         jScrollPane70.setBounds(240, 490, 100, 50);
@@ -780,7 +782,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane71.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat84.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat84.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat84.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane71.setViewportView(txtmat84);
 
         jScrollPane71.setBounds(340, 490, 100, 50);
@@ -789,7 +791,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane72.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat85.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat85.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat85.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane72.setViewportView(txtmat85);
 
         jScrollPane72.setBounds(440, 490, 100, 50);
@@ -798,7 +800,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane73.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat86.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat86.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat86.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane73.setViewportView(txtmat86);
 
         jScrollPane73.setBounds(540, 490, 100, 50);
@@ -807,7 +809,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane74.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat87.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat87.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat87.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane74.setViewportView(txtmat87);
 
         jScrollPane74.setBounds(640, 490, 100, 50);
@@ -816,7 +818,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane75.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat92.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat92.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat92.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane75.setViewportView(txtmat92);
 
         jScrollPane75.setBounds(140, 540, 100, 50);
@@ -825,7 +827,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane76.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat93.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat93.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat93.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane76.setViewportView(txtmat93);
 
         jScrollPane76.setBounds(240, 540, 100, 50);
@@ -834,7 +836,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane77.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat94.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat94.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat94.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane77.setViewportView(txtmat94);
 
         jScrollPane77.setBounds(340, 540, 100, 50);
@@ -843,7 +845,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane78.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat95.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat95.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat95.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane78.setViewportView(txtmat95);
 
         jScrollPane78.setBounds(440, 540, 100, 50);
@@ -852,7 +854,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane79.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat96.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat96.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat96.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane79.setViewportView(txtmat96);
 
         jScrollPane79.setBounds(540, 540, 100, 50);
@@ -861,7 +863,7 @@ public class MapaCurricular extends javax.swing.JFrame {
         jScrollPane80.setBackground(new java.awt.Color(255, 51, 51));
 
         txtmat97.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        txtmat97.setFont(new java.awt.Font("Arial", 0, 8));
+        txtmat97.setFont(new java.awt.Font("Arial", 0, 8)); // NOI18N
         jScrollPane80.setViewportView(txtmat97);
 
         jScrollPane80.setBounds(640, 540, 100, 50);
@@ -874,82 +876,81 @@ public class MapaCurricular extends javax.swing.JFrame {
                 jTextField1ActionPerformed(evt);
             }
         });
-        jTextField1.setBounds(660, 80, 30, 30);
+        jTextField1.setBounds(700, 80, 30, 30);
         jLayeredPane39.add(jTextField1, javax.swing.JLayeredPane.DEFAULT_LAYER);
+
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
+        jLabel1.setText("Materias que se cursan actualmente");
+        jLabel1.setBounds(460, 90, 240, 20);
+        jLayeredPane39.add(jLabel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jTextField2.setBackground(new java.awt.Color(255, 255, 0));
         jTextField2.setForeground(new java.awt.Color(255, 255, 0));
-        jTextField2.setBounds(660, 40, 30, 30);
+        jTextField2.setBounds(700, 30, 30, 30);
         jLayeredPane39.add(jTextField2, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
-        jLabel1.setText("Materias que se cursan ACTUALMENTE.");
-        jLabel1.setBounds(460, 90, 230, 20);
-        jLayeredPane39.add(jLabel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
-
-        jLabel2.setText("Materias Reprobadas.");
-        jLabel2.setBounds(550, 50, 110, 20);
+        jLabel2.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
+        jLabel2.setText("Materias Reprobadas");
+        jLabel2.setBounds(560, 40, 140, 20);
         jLayeredPane39.add(jLabel2, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
-        jLabel3.setText("Materias Acreditadas.");
-        jLabel3.setBounds(390, 50, 120, 20);
+        jLabel3.setFont(new java.awt.Font("Arial", 0, 13)); // NOI18N
+        jLabel3.setText("Materias Acreditadas");
+        jLabel3.setBounds(380, 40, 140, 20);
         jLayeredPane39.add(jLabel3, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jTextField3.setBackground(new java.awt.Color(51, 153, 0));
         jTextField3.setForeground(new java.awt.Color(51, 153, 0));
-        jTextField3.setBounds(500, 50, 30, 30);
+        jTextField3.setBounds(520, 30, 30, 30);
         jLayeredPane39.add(jTextField3, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jLayeredPane40.setBorder(javax.swing.BorderFactory.createTitledBorder("Datos del Alumno"));
 
-        jLabel47.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel47.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jLabel47.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel47.setText("Nombre:");
         jLabel47.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel47.setOpaque(true);
-        jLabel47.setBounds(10, 40, 120, 22);
+        jLabel47.setBounds(10, 40, 120, 19);
         jLayeredPane40.add(jLabel47, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
-        jLabel48.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel48.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jLabel48.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel48.setText("Apellido Materno");
         jLabel48.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel48.setOpaque(true);
-        jLabel48.setBounds(10, 80, 120, 22);
+        jLabel48.setBounds(10, 80, 120, 19);
         jLayeredPane40.add(jLabel48, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         apematalu5.setEditable(false);
-        apematalu5.setFont(new java.awt.Font("Comic Sans MS", 0, 12));
+        apematalu5.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         apematalu5.setBounds(130, 80, 200, 20);
         jLayeredPane40.add(apematalu5, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
-        jLabel52.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel52.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jLabel52.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel52.setText("Apellido Paterno:");
         jLabel52.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel52.setOpaque(true);
-        jLabel52.setBounds(10, 60, 120, 22);
+        jLabel52.setBounds(10, 60, 120, 19);
         jLayeredPane40.add(jLabel52, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
-        jLabel53.setBackground(new java.awt.Color(204, 204, 255));
-        jLabel53.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jLabel53.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         jLabel53.setText("Número de Cuenta:");
         jLabel53.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel53.setOpaque(true);
-        jLabel53.setBounds(10, 20, 120, 22);
+        jLabel53.setBounds(10, 20, 120, 19);
         jLayeredPane40.add(jLabel53, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         apepatalu5.setEditable(false);
-        apepatalu5.setFont(new java.awt.Font("Comic Sans MS", 0, 12));
+        apepatalu5.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         apepatalu5.setBounds(130, 60, 200, 20);
         jLayeredPane40.add(apepatalu5, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         nomalu5.setEditable(false);
-        nomalu5.setFont(new java.awt.Font("Comic Sans MS", 0, 12));
+        nomalu5.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         nomalu5.setBounds(130, 40, 200, 20);
         jLayeredPane40.add(nomalu5, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         ctaalu5.setEditable(false);
-        ctaalu5.setFont(new java.awt.Font("Comic Sans MS", 0, 12));
+        ctaalu5.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
         ctaalu5.setBounds(130, 20, 200, 20);
         jLayeredPane40.add(ctaalu5, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
